@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Hola desde la pagina de inicio";
+});
+
+Route::get('contacto', function(){
+    return "Hola desde la pagina de contacto";
+});
+
+Route::get('saludos/{nombre?}', function($nombre = "Invitado"){
+    return "Hola " . $nombre;
 });
