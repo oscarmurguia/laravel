@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('pruebas', function () {
-    return "Hola desde la pagina de inicio";
-});
-
 //Route::get('contacto', function(){
 //    return "Hola desde la pagina de contacto";
 //})->name('contactos');
