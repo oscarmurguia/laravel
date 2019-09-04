@@ -10,6 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+$portafolio = [
+//  ['title' => 'Proyecto 1'],
+//  ['title' => 'Proyecto 2'],
+//  ['title' => 'Proyecto 3'],
+//  ['title' => 'Proyecto 4'],
+//  ['title' => 'Proyecto 5'],
+];
+
 
 Route::get('pruebas', function () {
     return "Hola desde la pagina de inicio";
@@ -25,5 +33,5 @@ Route::get('saludos/{nombre?}', function($nombre = "Invitado"){
 
 Route::view('/', 'inicio')->name('inicio');
 Route::view('/acercade', 'acercade')->name('acercade');
-Route::view('/portafolio', 'portafolio')->name('portafolio');
+Route::view('/portafolio', 'portafolio', compact('portafolio'))->name('portafolio');
 Route::view('/contacto', 'contacto')->name('contacto');
