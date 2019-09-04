@@ -1,7 +1,7 @@
 @extends('plantilla')
 @section('titulo')
-  Inicio
+  Acerca de Nosotros
 @endsection
 @section('contenido')
-  <h1>Hola a la pagina de inicio</h1>
+  <h1>Acerca de Nosotros</h1>
 @endsection
