@@ -11,11 +11,11 @@
 |
 */
 $portafolio = [
-//  ['title' => 'Proyecto 1'],
-//  ['title' => 'Proyecto 2'],
-//  ['title' => 'Proyecto 3'],
-//  ['title' => 'Proyecto 4'],
-//  ['title' => 'Proyecto 5'],
+  ['title' => 'Proyecto 1'],
+  ['title' => 'Proyecto 2'],
+  ['title' => 'Proyecto 3'],
+  ['title' => 'Proyecto 4'],
+  ['title' => 'Proyecto 5'],
 ];
 
 
