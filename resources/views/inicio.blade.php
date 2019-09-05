@@ -8,5 +8,7 @@
     <li>Cosas para comprar de la tienda:</li>
     <li>Leche</li>
     <li>Huevos</li>
+    <li>Queso</li>
+    <li>Carne</li>
   </ul>
 @endsection
